@@ -1,3 +1,4 @@
+import resolve from '@rollup/plugin-node-resolve'
 import postcss from 'rollup-plugin-postcss'
 
 function myPlugin () {
@@ -18,6 +19,7 @@ export default {
     format: 'umd'
   },
   plugins: [
+    resolve(),
     myPlugin(),
     postcss()
   ]
