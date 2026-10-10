@@ -9,7 +9,7 @@
   "dependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
     "less": "^4.2.0",
-    "rollup": "2",
+    "rollup": "4",
     "rollup-plugin-postcss": "^4.0.2"
   }
 }
